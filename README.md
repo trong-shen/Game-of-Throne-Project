@@ -22,4 +22,4 @@
 
 #### Possible Model Predicition: 
 * Machine Learning Model to determine whose line it is:
-  - Use the Season 1 data set as training set to predict whose line it is from season 2.
+  - Use Season 1 data set as a training set to predict whose line it is from season 2.
