@@ -7,7 +7,7 @@
 * Trong Shen
 
 ### Data Set: 
-* Game_of_Thrones_Script.csv* saved in this repository from [Kaggle] (https://www.kaggle.com/dasbootstrapping/game-of-thrones-episode-data)
+* Game_of_Thrones_Script.csv* saved in this repository from [Kaggle](https://www.kaggle.com/dasbootstrapping/game-of-thrones-episode-data)
 - Use all of season 1 data and some of season 2 data
 
 #### We are proposing to do the following analysis on the data set.
