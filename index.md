@@ -12,7 +12,6 @@ Team 6 consists of a group of Game of Thrones (GOT) fanatics who want to join th
 ### Source Data Set: 
 * Game_of_Thrones_Script.csv* saved in this repository from [Kaggle](https://www.kaggle.com/dasbootstrapping/game-of-thrones-episode-data)
 * We cleaned up the above csv from Kaggle and saved a clean version in our repository named "Game_of_Thrones_Clean.csv"
-- Use all of season 1 data and some of season 2 data
 
 #### Research Questions:
 1. What insights can we draw from Game of Throne characters' script?
