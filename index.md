@@ -37,7 +37,17 @@ Team 6 consists of a group of Game of Thrones (GOT) fanatics who want to join th
 - Targaryen's tops words are dragon, take, and men
 
 #### Predictive Model
-#### To limit the scope of our predicitive model we decided to use only Season 1 and part of Season 2 data for our model. We tried to predicit, given a line, which house is the speaker from? 
+#### To limit the scope of our predicitive model we decided to use only Season 1 and part of Season 2 data for our model. In addition, we limited our houses to 4 top houses based on number of lines spoken in season 1: Lannister, Stark, Targaryen, and Mormont. Our goal is to predicit, given a line, which house is the speaker from? 
 #### Key findings:
-* Machine Learning Model to determine whose line it is:
-  - Use Season 1 data set as a training set to predict whose line it is from season 2.
+* We extracted different features just based on the script:
+  - Sentiment score: whether words used are postive, negative, or netural sentiment
+  - 4 Word Scores: a rating of how popular each word in that line is spoken by a particular house (one for every house of interest)
+  -Num_Words and Num_Words_per_line: count how many words are spoken in each row and each sentence
+* We found that there is some distinction between houses in terms of sentiment score and the 4 word scores but very little for Num_Words and Num_Words_per_line. We decided to drop Num_Words and Num_Words_per_line for our predictive model.
+* We utilzied Knn model with the 5 attibuted extracted one sentiment score and 4 word scores for 4 different houses. We obtained 53% accuracy with season 1 as train and test data, and an accuracy of 43% with season 1 as train data, but part of season 2 as test data.
+* We also tried other machine learning models common for natural language processing. For these ones, the only input is bag-of-words or a matrix of words used with their frequency as their row data. Random Forest algorithm had a comparable accuracy of 42% with season 1 as train data and part of season 2 as test data
+* Overall, it is difficult to predict which house speaker is from since there is limited feature to be extracted from script along and words commonly sometimes overlap across houses depending on the circumstance. 
+* Possibel areas for improvement for our Knn model: 
+  - Remove all neutral sentiment words to increase sentiment score disncticiton between lines
+  - Remove popular words shared between houses
+  - Extract or create more attributes to increase the model accuracy 
