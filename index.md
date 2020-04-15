@@ -25,7 +25,7 @@ Team 6 consists of a group of Game of Thrones (GOT) fanatics who want to join th
   - GOT_predictive_model_part_2.ipynb 
 
 #### Data Analysis
-##### We performed data anlytics on all the season, and obtained some interesting findings:
+#### We performed data anlytics on all the season, and obtained some interesting findings:
 * We found that speaking lines in the show remain somewhat consistent but dropped in the last season because the last season is more action-filled rather than dialogue-filled.
 * House Stark had more speaking lines in the show in the first season, but then surrendered more lines to House Lannister and Targaryen as the show progresses.
 * We found that majority of the speaking lines for every season are spoken by dead characters. Perhaps not dead in the season, but dead at some point in the show
