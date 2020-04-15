@@ -1,4 +1,5 @@
 # Project Title: Whose line is it from Game of Thrones?
+## Summary Video: (https://www.youtube.com/watch?v=7IW09Dm7BFc)
 ## Team 6 members:
 * Zhen Wang (Brandon)
 * Tyler Mccluskey
